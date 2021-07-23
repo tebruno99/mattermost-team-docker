@@ -28,7 +28,7 @@ sudo docker run -d --name=mattermost \
   -e DB_PASSWORD="your password" \
   -e DB_SQL_DRIVER="mysql" \
   -e MM_SITE_URL="https://mattermost.mydomain.com" \
- mattermost
+ tebruno99/mattermost-team-docker:latest
 ```
 
 Use the nginx example file to setup your nginx proxy
