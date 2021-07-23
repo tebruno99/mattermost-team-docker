@@ -1,7 +1,7 @@
 Simplied Mattermost docker app server.
 
 ENV Vars (with defaults):
-
+```
 MM_SITE_URL="http://localhost:8000"
 DB_HOST=db
 DB_PORT=3306
@@ -11,9 +11,9 @@ DB_PASSWORD=
 DB_NAME=mattermost
 DB_SQL_DRIVER=mysql
 MM_CONFIG=/mattermost/config/config.json
+```
 
 To Run:
-
 ```
 sudo docker run -d --name=mattermost \
   -v ./mattermost/data:/mattermost/data:z \
